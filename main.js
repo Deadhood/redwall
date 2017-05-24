@@ -21,7 +21,11 @@ if (process.defaultApp ||
 function createWindow () {
   // Create the browser window.
   mainWindow = new BrowserWindow({
-    width: 1024, height: 768, show: false
+    width: 800,
+    height: 600,
+    icon: path.join(__dirname, 'icon.png'),
+    frame: false,
+    show: false
   })
 
   // and load the index.html of the app.
@@ -46,7 +50,7 @@ function createWindow () {
   mainWindow.once('ready-to-show', () => {
     mainWindow.show()
     // Open the DevTools automatically if developing
-    if (dev) {
+    if (dev && process.argv.indexOf('--devtool') !== -1) {
       mainWindow.webContents.openDevTools()
     }
   })

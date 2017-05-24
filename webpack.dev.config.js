@@ -14,7 +14,10 @@ const babelrc = JSON.parse(fs.readFileSync('./.babelrc', 'utf8'))
 const defaultInclude = [SRC_DIR]
 
 module.exports = {
-  entry: ['react-hot-loader/patch', SRC_DIR + '/index.js'],
+  entry: [
+    'react-hot-loader/patch',
+    SRC_DIR + '/index.js'
+  ],
   output: {
     path: OUTPUT_DIR,
     publicPath: '/',

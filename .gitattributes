@@ -1,0 +1,2 @@
+*.js filter=gitignore
+*.jsx filter=gitignore
