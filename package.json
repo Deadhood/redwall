@@ -48,7 +48,7 @@
     "standard": "^14.1.0",
     "style-loader": "^0.23.1",
     "webpack": "^2.7.0",
-    "webpack-dev-server": "^3.7.2"
+    "webpack-dev-server": "^3.8.0"
   },
   "standard": {
     "parser": "babel-eslint"
