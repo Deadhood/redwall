@@ -28,7 +28,7 @@
     "nraw": "^0.2.5",
     "react": "^16.8.6",
     "react-desktop": "^0.3.9",
-    "react-dom": "^16.9.0"
+    "react-dom": "^16.10.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
