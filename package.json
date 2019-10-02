@@ -47,7 +47,7 @@
     "react-hot-loader": "next",
     "standard": "^14.3.1",
     "style-loader": "^0.23.1",
-    "webpack": "^2.7.0",
+    "webpack": "^4.41.0",
     "webpack-dev-server": "^3.8.1"
   },
   "standard": {
