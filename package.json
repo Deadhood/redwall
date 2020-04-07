@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@fa7ad/wallpaper": "^2.4.2-a",
-    "electron": "^8.2.0",
+    "electron": "^8.2.1",
     "mobx": "^3.6.2",
     "mobx-react": "^4.4.3",
     "nraw": "^0.2.5",
